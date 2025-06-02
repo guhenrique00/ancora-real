@@ -1,24 +1,40 @@
-body{
-    background-color: black;
+body {
+  background-color: black;
+  font-family: Arial, sans-serif;
+  color: white;
 }
-
-
 
 h1 {
-    text-align: center;
-    border-color: blueviolet;
-    border-style: dashed;
-    border-width: 4px;
-    background-color: black;
+  text-align: center;
+  font-size: 220%;
+  background-color: blueviolet;
+  border: 2px dashed white;
+  padding: 1px;
+  margin: 20px;
+  border-radius: 8px;
+  color: white;
 }
 
-.p1 {
-   
-    text-align: center;
-
+.p1, .p2 {
+  text-align: center;
+  margin-top: 30px;
 }
 
-.p2{
-    
-   text-align: center;
+.ancora {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+.ancora img {
+  width: 260px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.ancora span {
+  display: block;
+  margin-top: 10px;
+  font-size: 15px;
 }
